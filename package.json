@@ -1,0 +1,33 @@
+{
+  "name": "@used-goods/clipboard",
+  "version": "1.0.0",
+  "description": "A used clipboard react hook used to copy text to clipboard and create components that respond to copy to clipboard action",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "source": "src/index.ts",
+  "scripts": {
+    "prepare": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/used-goods/clipboard.git"
+  },
+  "author": "Tomasz Tunik <tomasztunik@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/used-goods/clipboard/issues"
+  },
+  "homepage": "https://github.com/used-goods/clipboard#readme",
+  "devDependencies": {
+    "@types/react": "^16.9.49",
+    "@types/react-dom": "^16.9.8",
+    "react": ">= 16.8.0",
+    "react-dom": ">= 16.8.0",
+    "typescript": "^4.0.3"
+  },
+  "peerDependencies": {
+    "react": ">= 16.8.0",
+    "react-dom": ">= 16.8.0"
+  }
+}
